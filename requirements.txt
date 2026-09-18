@@ -10,3 +10,5 @@ imageio-ffmpeg
 imageio
 open3d
 torchmetrics
+fpsample
+psutil

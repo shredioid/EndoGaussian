@@ -24,7 +24,7 @@
 
 ## ⚙️ Setup
 ```bash
-git clone https://github.com/yifliu3/EndoGaussian.git
+git clone git@github.com:yifliu3/EndoGaussian.git
 cd EndoGaussian
 git submodule update --init --recursive
 conda create -n EndoGaussian python=3.7 
@@ -37,14 +37,14 @@ pip install -e submodules/simple-knn
 In our environment, we use pytorch=1.13.1, and the CUDA compile version is 11.7.
 ## 📚 Data Preparation
 **EndoNeRF:**  
-The dataset provided in [EndoNeRF](https://arxiv.org/abs/2206.15255) is used. You can download and process the dataset from their website (https://github.com/med-air/EndoNeRF). We use the two accessible clips including 'pulling_soft_tissues' and 'cutting_tissues_twice'.
+The dataset provided in [EndoNeRF](https://arxiv.org/abs/2206.15255) is used. You can download and process the dataset from their repository: `git clone git@github.com:med-air/EndoNeRF.git`. We use the two accessible clips including 'pulling_soft_tissues' and 'cutting_tissues_twice'.
 
 **SCARED:**  
 The dataset provided in [SCARED](https://endovissub2019-scared.grand-challenge.org/) is used. To obtain a link to the data and code release, sign the challenge rules and email them to max.allan@intusurg.com. You will receive a temporary link to download the data and code.
-Follow [MICCAI_challenge_preprocess](https://github.com/EikoLoki/MICCAI_challenge_preprocess) to extract data. 
+Follow [MICCAI_challenge_preprocess](https://github.com/EikoLoki/MICCAI_challenge_preprocess) to extract data: `git clone git@github.com:EikoLoki/MICCAI_challenge_preprocess.git`. 
 
 **Hamlyn (new):**  
-The dataset provided in [Forplane](https://github.com/Loping151/ForPlane) is used. Thanks for their efforts.
+The dataset provided in [Forplane](https://github.com/Loping151/ForPlane) is used: `git clone git@github.com:Loping151/ForPlane.git`. Thanks for their efforts.
 
 The resulted file structure is as follows.
 ```
