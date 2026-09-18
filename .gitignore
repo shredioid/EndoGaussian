@@ -9,6 +9,5 @@ screenshots
 data/
 data
 argument/
-scripts/
 *.sh 
 .ply
